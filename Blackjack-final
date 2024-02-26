@@ -1,6 +1,6 @@
 import random
 from replit import clear
-from artblackjack import logo
+from art import logo
 
 def deal_card():
   """Returns a random card from the deck."""

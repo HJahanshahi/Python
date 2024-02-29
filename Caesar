@@ -31,3 +31,18 @@ def caesar(plain_text, shift_amount, cipher_direction):
   if restart == "no":
     should_continue = False
     print("Have a good time. Goodbye!")
+
+
+
+
+
+should_continue = True
+while should_continue:
+  direction = input("Type 'encode' to encrypt, type 'decode' to decrypt:\n")
+  text = input("Type your message:\n").lower()
+  shift = int(input("Type the shift number:\n"))
+
+
+  caesar(plain_text=text, shift_amount=shift, cipher_direction=direction)
+
+
